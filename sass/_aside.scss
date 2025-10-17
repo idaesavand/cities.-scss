@@ -1,0 +1,23 @@
+aside {
+  background-color: color-shade( theme-color(bg),30%);
+  width: 200px;
+  padding: 20px;
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 15px;
+  }
+
+  a {
+    color: blue;
+
+    &.active {
+      font-weight: bold;
+      color: blue;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.citydetails {
+  background-color: color-shade(theme-color(bg),50%);
+  flex: 1;
+  padding: 20px;
+  p#desc{
+    margin-top: 3rem;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+}

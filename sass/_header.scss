@@ -1,0 +1,9 @@
+header {
+  background-color: theme-color(bg);
+  text-align: center;
+  color: white;
+  padding: map-get($spacing , m-xl );
+  h1{
+    font-size: map-get($fsize , f-l );
+  }
+}

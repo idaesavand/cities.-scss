@@ -1,0 +1,16 @@
+@function theme-color($key) {
+    @if $theme == light {
+      @return map-get($light-theme, $key);
+    } @else {
+      @return map-get($dark-theme, $key);
+    }
+  }
+// Function to lighten or darken a color dynamically
+  @function color-shade($color, $percentage) {
+    @if $theme == light {
+      @return darken($color, $percentage);
+    } @else {
+      @return lighten($color, $percentage);
+    }
+  }
+  

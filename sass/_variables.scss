@@ -1,0 +1,26 @@
+$theme: dark;
+$dark-theme: (
+    bg: #333,
+    text: #f2f2f2,
+    primary: #1212aa,
+    danger: #aa1212,
+);
+$light-theme: (
+    bg:#bebebe,
+    text:#ffffff,
+    primery:#3083ff,
+    danger:#ff3030,
+);
+
+$fsize:(
+    f-xl:3rem,
+    f-l:2rem,
+    f-m:1rem,
+    f-s:.5rem
+);
+$spacing:(
+    m-xl: 3rem,
+    m-l:2rem,
+    m-m:1rem,
+    m-s:.5rem
+)

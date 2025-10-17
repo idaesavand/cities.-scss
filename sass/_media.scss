@@ -1,0 +1,29 @@
+@include mobile {
+  main {
+    flex-direction: column;
+    margin: 0 10px;
+  }
+
+  aside {
+    width: 100%;
+    text-align: center;
+
+    ul {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+    }
+
+    li {
+      margin: 1;
+    }
+  }
+
+  .citydetails {
+    padding: 15px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+}

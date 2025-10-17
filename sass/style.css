@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+aside {
+  background-color: rgb(127.5, 127.5, 127.5);
+  width: 200px;
+  padding: 20px;
+}
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+aside li {
+  margin-bottom: 15px;
+}
+aside a {
+  color: blue;
+}
+aside a.active {
+  font-weight: bold;
+  color: blue;
+}
+
+header {
+  background-color: #333;
+  text-align: center;
+  color: white;
+  padding: 3rem;
+}
+header h1 {
+  font-size: 2rem;
+}
+
+main {
+  display: flex;
+  min-height: 60vh;
+}
+
+.citydetails {
+  background-color: rgb(178.5, 178.5, 178.5);
+  flex: 1;
+  padding: 20px;
+}
+.citydetails p#desc {
+  margin-top: 3rem;
+}
+.citydetails h2 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #666666;
+  text-align: center;
+  color: #f2f2f2;
+  padding: 2rem;
+}
+
+@media (max-width: 500px) {
+  main {
+    flex-direction: column;
+    margin: 0 10px;
+  }
+  aside {
+    width: 100%;
+    text-align: center;
+  }
+  aside ul {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  aside li {
+    margin: 1;
+  }
+  .citydetails {
+    padding: 15px;
+  }
+  footer {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=style.css.map */
